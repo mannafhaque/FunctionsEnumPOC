@@ -13,12 +13,12 @@ namespace FunctionBindingToPocoObject
     {
         [FunctionName("FunctionBindingToString")]
         public static async Task<IActionResult> Run(
-            [HttpTrigger(AuthorizationLevel.Anonymous, "post", Route = null)] string selskapJson,
+            [HttpTrigger(AuthorizationLevel.Anonymous, "post", Route = null)] string customerJson,
             HttpRequest req,
             ILogger log)
         {
-            Customer selskap = JsonConvert.DeserializeObject<Customer>(selskapJson);
-            return (ActionResult)new OkObjectResult($"Hello from FunctionBindingToString: {JsonConvert.SerializeObject(selskap)} ");
+            Customer customer = JsonConvert.DeserializeObject<Customer>(customerJson);
+            return (ActionResult)new OkObjectResult($"Hello from FunctionBindingToString: {JsonConvert.SerializeObject(customer)} ");
         }
     }
 }

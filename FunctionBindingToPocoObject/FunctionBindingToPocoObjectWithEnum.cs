@@ -13,12 +13,12 @@ namespace FunctionBindingToPocoObject
     {
         [FunctionName("FunctionBindingToPocoObjectWithEnum")]
         public static async Task<IActionResult> Run(
-            [HttpTrigger(AuthorizationLevel.Anonymous, "post", Route = null)] Customer selskap,
+            [HttpTrigger(AuthorizationLevel.Anonymous, "post", Route = null)] Customer customer,
             HttpRequest req,
             ILogger log)
         {
             // Why this does not work with .net standard 2.0? 
-            return (ActionResult)new OkObjectResult($"Hello from FunctionBindingToPocoObject: {JsonConvert.SerializeObject(selskap)} ");
+            return (ActionResult)new OkObjectResult($"Hello from FunctionBindingToPocoObject: {JsonConvert.SerializeObject(customer)} ");
         }
     }
 }

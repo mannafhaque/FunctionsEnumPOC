@@ -1,0 +1,8 @@
+C:\Users\manhaq\Documents\GITHUB-Public\Public\FunctionsEnumPOC\Common.Models\bin\Debug\netstandard2.0\Common.Models.deps.json
+C:\Users\manhaq\Documents\GITHUB-Public\Public\FunctionsEnumPOC\Common.Models\bin\Debug\netstandard2.0\Common.Models.dll
+C:\Users\manhaq\Documents\GITHUB-Public\Public\FunctionsEnumPOC\Common.Models\bin\Debug\netstandard2.0\Common.Models.pdb
+C:\Users\manhaq\Documents\GITHUB-Public\Public\FunctionsEnumPOC\Common.Models\obj\Debug\netstandard2.0\Common.Models.csproj.CoreCompileInputs.cache
+C:\Users\manhaq\Documents\GITHUB-Public\Public\FunctionsEnumPOC\Common.Models\obj\Debug\netstandard2.0\Common.Models.AssemblyInfoInputs.cache
+C:\Users\manhaq\Documents\GITHUB-Public\Public\FunctionsEnumPOC\Common.Models\obj\Debug\netstandard2.0\Common.Models.AssemblyInfo.cs
+C:\Users\manhaq\Documents\GITHUB-Public\Public\FunctionsEnumPOC\Common.Models\obj\Debug\netstandard2.0\Common.Models.dll
+C:\Users\manhaq\Documents\GITHUB-Public\Public\FunctionsEnumPOC\Common.Models\obj\Debug\netstandard2.0\Common.Models.pdb
